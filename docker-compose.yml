@@ -1,0 +1,19 @@
+name: playnext-midterm
+services:
+  db:
+    image: postgres:17.5-alpine
+    environment:
+      POSTGRES_USER: gameapp
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run scripts/setup_local.py first}
+      POSTGRES_DB: gameapp
+    ports:
+      - '127.0.0.1:${POSTGRES_PORT:-15433}:5432'
+    volumes:
+      - game_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U gameapp -d gameapp']
+      interval: 3s
+      timeout: 3s
+      retries: 20
+volumes:
+  game_db:

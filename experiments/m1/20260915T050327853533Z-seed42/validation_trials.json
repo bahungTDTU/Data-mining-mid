@@ -1,0 +1,137 @@
+[
+  {
+    "neighbors": 20,
+    "mean_ndcg_at_10": 0.04128321485033758,
+    "build_seconds": 0.034050199999910546,
+    "per_support": [
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2234,
+        "recall_at_10": 0.06520000000000001,
+        "ndcg_at_10": 0.03888976154573342,
+        "coverage_at_10": 0.2791946308724832,
+        "ild": 0.8440489717369604,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 153.7272,
+        "fallback_counts": {
+          "no_cf_signal": 1
+        }
+      },
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2232,
+        "recall_at_10": 0.06093333333333334,
+        "ndcg_at_10": 0.031060637107489228,
+        "coverage_at_10": 0.3118568232662192,
+        "ild": 0.867207788207827,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 114.10320000000002,
+        "fallback_counts": {}
+      },
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2230,
+        "recall_at_10": 0.09893333333333333,
+        "ndcg_at_10": 0.05389924589779009,
+        "coverage_at_10": 0.30961968680089486,
+        "ild": 0.8748340196351184,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 128.1376,
+        "fallback_counts": {}
+      }
+    ]
+  },
+  {
+    "neighbors": 50,
+    "mean_ndcg_at_10": 0.053552865438178034,
+    "build_seconds": 0.0367487000003166,
+    "per_support": [
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2234,
+        "recall_at_10": 0.06520000000000001,
+        "ndcg_at_10": 0.03888976154573342,
+        "coverage_at_10": 0.2791946308724832,
+        "ild": 0.8440489717369604,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 153.7272,
+        "fallback_counts": {
+          "no_cf_signal": 1
+        }
+      },
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2232,
+        "recall_at_10": 0.09093333333333334,
+        "ndcg_at_10": 0.050282045761960464,
+        "coverage_at_10": 0.3087248322147651,
+        "ild": 0.8621951266167558,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 160.7568,
+        "fallback_counts": {}
+      },
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2230,
+        "recall_at_10": 0.12453333333333333,
+        "ndcg_at_10": 0.07148678900684023,
+        "coverage_at_10": 0.2993288590604027,
+        "ild": 0.8713036232952581,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 192.6072,
+        "fallback_counts": {}
+      }
+    ]
+  },
+  {
+    "neighbors": 100,
+    "mean_ndcg_at_10": 0.0675561461237429,
+    "build_seconds": 0.04013050000048679,
+    "per_support": [
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2234,
+        "recall_at_10": 0.06520000000000001,
+        "ndcg_at_10": 0.03888976154573342,
+        "coverage_at_10": 0.2791946308724832,
+        "ild": 0.8440489717369604,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 153.7272,
+        "fallback_counts": {
+          "no_cf_signal": 1
+        }
+      },
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2232,
+        "recall_at_10": 0.11786666666666668,
+        "ndcg_at_10": 0.06491256888503616,
+        "coverage_at_10": 0.30335570469798656,
+        "ild": 0.8565947630615168,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 217.2056,
+        "fallback_counts": {}
+      },
+      {
+        "users": 125,
+        "catalog_size": 2235,
+        "candidates_per_user": 2230,
+        "recall_at_10": 0.17546666666666663,
+        "ndcg_at_10": 0.09886610794045915,
+        "coverage_at_10": 0.27874720357941835,
+        "ild": 0.8617585535766731,
+        "ild_excluded_users": 0,
+        "average_recommendation_popularity": 262.9256,
+        "fallback_counts": {}
+      }
+    ]
+  }
+]

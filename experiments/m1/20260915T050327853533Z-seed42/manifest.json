@@ -1,0 +1,96 @@
+{
+  "run_id": "20260915T050327853533Z-seed42",
+  "schema_version": "m1.1",
+  "protocol_version": "v1",
+  "purpose": "M1 development evaluation; not the locked M6 final test",
+  "python": "3.11.5",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.3",
+    "psutil": "7.0.0"
+  },
+  "config": {
+    "schema_version": "m1.1",
+    "protocol_version": "v1",
+    "seed": 42,
+    "source_config": "configs/m1-data.json",
+    "neighbors_grid": [
+      20,
+      50,
+      100
+    ],
+    "k": 10,
+    "purpose": "M1 development evaluation; not the locked M6 final test"
+  },
+  "data_config": {
+    "schema_version": "m0.1",
+    "seed": 42,
+    "expected_sha256": {
+      "reviews": "a934bf74d8579bb25bc7bf24e652a87e2ccc91064e429a4cb4af5809178687a8",
+      "metadata": "717f4653a26585fec8f463f59311a654127c2ed66b07b9f78b4c0ce64961c740"
+    },
+    "sample_users": 20000,
+    "reviews": "data/raw/australian_user_reviews.json.gz",
+    "metadata": "data/raw/steam_games.json.gz",
+    "output": "experiments/m1-data",
+    "processed": "data/processed/m1"
+  },
+  "input_hashes": {
+    "users.json": "f444a44c7a95267fee52890762df340ab0c821c56d543ffd625b153c9a33998a",
+    "games.json": "b8fcf1553ee372bb607e157cb5ea74e4321e5c62cc773c45b56e22d2c5f4e982",
+    "interactions.jsonl": "adb22d70e8ea22dce2e2db3745632dfa232df183dcb779edc43de6174fdcd173"
+  },
+  "raw_hashes": {
+    "reviews": "a934bf74d8579bb25bc7bf24e652a87e2ccc91064e429a4cb4af5809178687a8",
+    "metadata": "717f4653a26585fec8f463f59311a654127c2ed66b07b9f78b4c0ce64961c740"
+  },
+  "code_hashes": {
+    "ml\\__init__.py": "f411fa0f7bb9696de0c2ba508eaa6cf496c5487a163f5a250dcae3e3d00a83d5",
+    "ml\\data.py": "dadcb9ba009d6f0c40a4310afb2403b09b15c4c6409305326c1c169068249695",
+    "ml\\evaluation.py": "0c4471bf04fbddd7c987139626092e47e4b4a90dcb13de1cd3910ad39a1c8533",
+    "ml\\metrics.py": "c54ce5aa03c46c1fff48ef6c4185067c0988681e189df2b3477af71ecead8cc1",
+    "ml\\models.py": "64f2ca3be0cb8e0ba38ab1fa69eab264134f5edeab3b5d36a66a36df8d20e9b0",
+    "ml\\plots.py": "e3e19ae3bebb36938dbe5f3f45cba04eeb08c5bfdce2b9d76b8bd826474a7516",
+    "ml\\run.py": "c3cf102f3b4a88c11fb3c200d9cbe4a8f4c648c26d91bfbb99cc25893781b4ef"
+  },
+  "survey_code_sha256": "eee2fc26465c0cff6772aeef98ab7b0606a86318c8c32ed49723cfed98cc3f54",
+  "protocol_sha256": "3048af48859edfded4fc7ac5f0c120389c9e2144fec17def80bfbe1657f8bc1c",
+  "lock_sha256": "5a0a26c34f9531971cf986c151743fb264c8c0c10d08504710209e662f884427",
+  "artifact_path": "artifacts\\m1\\20260915T050327853533Z-seed42",
+  "artifact_hashes": {
+    "cases.json": "d2931684944630b50fc6c2dee2cb6169fdd3135f27bc7ca975d0cc5176ba8dce",
+    "model\\arrays.npz": "6e3ed99155ccbcf640368dbb181379aec87d8e06ecd1983ef991ffaed152b51e",
+    "model\\cf.npz": "a20d8ecb56bda2771b58f138d6b1516c184dcce98d8702dc85de3ca454475438",
+    "model\\features.npz": "e7096b9735c159458c35c284425fecaf0c11eaccf8bc0935f25b327341ed83d2",
+    "model\\interactions.npz": "b183478680c89108e78fc49ecab7bf2aa00f15af309529704f189be96fc9ed71",
+    "model\\model.json": "cc1dbc9a68bb7f33e6e5d55a3014c2c8d31dfd02fecd3a6cf45f131aa6e2f4bd",
+    "predictions.jsonl": "3aa713fe8310b6325b5f1adc4591b35f5bb9ed8c7575bb596d6780d565239827",
+    "splits.json": "53c087a56b6db04e918de6e403d1cc6ecf14e13cbb1be73f5aa1b3c0dcdf4d18"
+  },
+  "initial_fit_seconds": 0.09919010000066919,
+  "elapsed_seconds": 19.07761699999992,
+  "fit_seconds": {
+    "popular_including_matrix": 0.0346425999996427,
+    "content": 0.03090249999968364,
+    "itemcf": 0.033244700000068406,
+    "itemcf_selected": 0.04225930000029621
+  },
+  "process_peak_working_set_bytes": 234930176,
+  "memory_scope": "whole process OS high-water mark, includes libraries/data/fit/evaluation/plots; not per-model peak",
+  "api_latency": "not measured",
+  "report_hashes": {
+    "cohorts.json": "f6c6831259ac19598d85474a4eced04ec0e61836519cd8af06392f5288974088",
+    "config.json": "fbc2a79e2e3a74ab1c7c496723d48a50e181a8a85ecca6b392bb083343f5ba3c",
+    "data_manifest.json": "9cc5e7128bdbdf4e495db5d6d9c49b209617380a94e9edfea6904b10f6ab5f8e",
+    "data_summary.json": "bacf36b3f6f8d0f8ea400716b4eb059a7c88567f31f854e484434edccdc87f9b",
+    "eda.png": "1701d4134e7fabc86cf71715470a51aaa21e86018c6e2cb3398454e58ff87a04",
+    "metrics.csv": "a0f7c78f78bb77daf96e19efa0c9370b48b5035d547a647870dffd80ba053a3b",
+    "metrics.json": "53a7fa772bd352e3a1d1c0bbcbbd62f79ab3a694d78482e4857d3d4c9982410c",
+    "selection.json": "04873727d416bbf97c16817029d392048eae477408c39f66defb4473c5b70b57",
+    "validation_trials.json": "553abcd5c9c144a2b6cd3212c3e4e0527bfb0978f1ce844ac01b12b0dc853fc9"
+  }
+}

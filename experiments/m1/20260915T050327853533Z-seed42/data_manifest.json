@@ -1,0 +1,40 @@
+{
+  "schema_version": "m0.1",
+  "generated_at_utc": "2026-09-15T05:03:27.398849+00:00",
+  "python": "3.11.5",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "config": {
+    "schema_version": "m0.1",
+    "seed": 42,
+    "expected_sha256": {
+      "reviews": "a934bf74d8579bb25bc7bf24e652a87e2ccc91064e429a4cb4af5809178687a8",
+      "metadata": "717f4653a26585fec8f463f59311a654127c2ed66b07b9f78b4c0ce64961c740"
+    },
+    "sample_users": 20000,
+    "reviews": "data/raw/australian_user_reviews.json.gz",
+    "metadata": "data/raw/steam_games.json.gz",
+    "output": "experiments/m1-data",
+    "processed": "data/processed/m1"
+  },
+  "inputs": {
+    "reviews": {
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/steam/australian_user_reviews.json.gz",
+      "bytes": 6935922,
+      "sha256": "a934bf74d8579bb25bc7bf24e652a87e2ccc91064e429a4cb4af5809178687a8"
+    },
+    "metadata": {
+      "url": "https://cseweb.ucsd.edu/~wckang/steam_games.json.gz",
+      "bytes": 2740516,
+      "sha256": "717f4653a26585fec8f463f59311a654127c2ed66b07b9f78b4c0ce64961c740"
+    }
+  },
+  "outputs": {
+    "games.json": "b8fcf1553ee372bb607e157cb5ea74e4321e5c62cc773c45b56e22d2c5f4e982",
+    "interactions.jsonl": "adb22d70e8ea22dce2e2db3745632dfa232df183dcb779edc43de6174fdcd173",
+    "users.json": "f444a44c7a95267fee52890762df340ab0c821c56d543ffd625b153c9a33998a"
+  },
+  "script_sha256": "eee2fc26465c0cff6772aeef98ab7b0606a86318c8c32ed49723cfed98cc3f54",
+  "config_sha256": "e817d95ba10e1cc835b264d4c635259200410fcb283a70720db9d4d5bebe4b2f",
+  "elapsed_seconds": 6.054,
+  "peak_ram": "not measured"
+}

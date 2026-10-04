@@ -1,0 +1,2 @@
+.mobile-account{display:none}
+@media(max-width:700px){.mobile-account{display:flex;justify-content:space-between;gap:10px;font-size:11px;padding:14px 0;border-bottom:1px solid #dde2d8}.mobile-account button{border:0;background:transparent;text-decoration:underline}.mobile-account span{overflow-wrap:anywhere}}

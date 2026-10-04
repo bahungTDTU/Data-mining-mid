@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "run_id": "20260915T050327853533Z-seed42",
+  "prediction_rows_checked": 9414,
+  "summary_rows_checked": 36,
+  "cases_checked": 3138,
+  "checks": [
+    "input/report/artifact hashes",
+    "user-disjoint exhaustive split",
+    "train-only catalog and interaction matrix",
+    "support/query disjoint and nested common cohort",
+    "independent per-user Recall/NDCG recomputation",
+    "macro metrics/coverage recomputation",
+    "same users/candidates across models",
+    "persisted model inference spot checks",
+    "validation-only selection consistency"
+  ]
+}

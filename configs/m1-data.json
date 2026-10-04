@@ -1,0 +1,13 @@
+{
+  "schema_version": "m0.1",
+  "seed": 42,
+  "expected_sha256": {
+    "reviews": "a934bf74d8579bb25bc7bf24e652a87e2ccc91064e429a4cb4af5809178687a8",
+    "metadata": "717f4653a26585fec8f463f59311a654127c2ed66b07b9f78b4c0ce64961c740"
+  },
+  "sample_users": 20000,
+  "reviews": "data/raw/australian_user_reviews.json.gz",
+  "metadata": "data/raw/steam_games.json.gz",
+  "output": "experiments/m1-data",
+  "processed": "data/processed/m1"
+}

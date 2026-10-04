@@ -1,0 +1,27 @@
+{
+  "users": 20000,
+  "sample_items": 2614,
+  "interactions": 37391,
+  "split_users": {
+    "train": 14000,
+    "validation": 3000,
+    "test": 3000
+  },
+  "catalog_size": 2235,
+  "train_interactions": 26174,
+  "train_sparsity": 0.9991635027165229,
+  "history_counts": {
+    "1": 10229,
+    "2": 3351,
+    "4": 1076,
+    "0": 1855,
+    "7": 304,
+    "3": 1734,
+    "9": 111,
+    "5": 677,
+    "6": 462,
+    "8": 170,
+    "10": 31
+  },
+  "train_items_without_features": 0
+}
